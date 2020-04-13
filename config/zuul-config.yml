@@ -1,16 +1,5 @@
-spring:
-  application:
-    name: zuul-server
-
 server:
   port: 8088
-
-eureka:
-  client:
-#    register-with-eureka: true   #false表示不向注册中心注册自己。
-#    fetch-registry: true      #false表示自己是注册中心，职责是维护服务，而不是调用服务
-    serviceUrl:
-      defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/
 
 zuul:
   max:
