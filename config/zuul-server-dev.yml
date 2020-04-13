@@ -21,3 +21,6 @@ eureka:
 spring: 
   application:
     name: zuul-server
+API-SERVER:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
