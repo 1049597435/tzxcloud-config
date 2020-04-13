@@ -12,3 +12,9 @@ zuul:
     api:
       path: /api/**
       serviceId: api-server
+server: 
+  port: 8088
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/
