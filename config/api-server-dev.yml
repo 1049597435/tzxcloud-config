@@ -5,3 +5,5 @@ feign:
   hystrix:
     enabled: true
 testfool: 5201314
+server: 
+  port: 8741
