@@ -6,4 +6,7 @@ feign:
     enabled: true
 testfool: 5201314
 server: 
-  port: 8741
+  port: 8742
+spring: 
+  application:
+    name: api-server
