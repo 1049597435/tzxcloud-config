@@ -1,6 +1,3 @@
-server:
-  port: 8742
-
 USER-SERVER:
   ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule #≈‰÷√πÊ‘Ú ÀÊª˙
