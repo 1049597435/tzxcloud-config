@@ -4,3 +4,4 @@ USER-SERVER:
 feign:
   hystrix:
     enabled: true
+testfool: 5201314
